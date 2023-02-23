@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'core.apps.CoreConfig',
 ]
 
-CORS_ALLOWED_ORIGINS = ['*']
+CORS_ALLOWED_ORIGINS = ['http://localhost:8000']
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
